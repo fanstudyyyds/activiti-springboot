@@ -1,0 +1,45 @@
+
+
+###
+#创建流程
+###
+GET 127.0.0.1:8080/act/saveNewDeploy
+
+
+###
+#启动流程实例
+###
+GET 127.0.0.1:8080/act/startProcess?userid=1002
+
+
+
+
+###
+#查询流程
+###
+GET 127.0.0.1:8080/act/getMyTaskInfoList?userid=1001
+
+
+
+
+###
+#提交任务
+###
+GET 127.0.0.1:8080/act/completeProcess?userid=1004
+
+
+
+
+###
+#查询历史
+###
+GET 127.0.0.1:8080/act/searchHistory?key=faneeeeeeeeeeeeee
+
+
+
+
+
+
+
+
+
